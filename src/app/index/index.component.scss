@@ -1,0 +1,18 @@
+.carousel-item.active{
+    display: flex;
+}
+
+.carousel-item{
+    height: 60vh;
+}
+
+.favoritos{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#favorito{
+    text-align: center;
+}
+
