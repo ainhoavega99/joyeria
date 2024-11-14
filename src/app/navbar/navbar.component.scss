@@ -8,26 +8,27 @@
   height: 8vh;
   justify-content: space-around;
   grid-template-columns: 5fr 1fr 1fr;
-  gap: 40px;
   padding: 0 30px;
   background-color: white;
   width: 100vw;
 
   & > ul.principal {
     list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
     width: 50vw;
     height: 100%;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 
-    &>li {
+    & > li {
       height: 100%;
       align-content: center;
-      padding: 0 10px;
+      padding: 0 30px;
+      font-family: "Mrs Saint Delafield", "WindSong", cursive;
+      font-size: 34px;
       &:hover {
-        background-color: blue;
-        &>a {
+        background-color: #22919e;
+        & > a {
           color: white;
         }
       }
@@ -48,6 +49,13 @@ li ul {
   border: none;
   width: 100vw;
   padding: 20px;
+  font-size: 30px;
+  & > li a {
+    padding: 0 10px;
+    &:hover {
+      background-color: #7bdfeabd;
+    }
+  }
 }
 
 .icons {
@@ -65,7 +73,7 @@ li ul {
 }
 
 .searchTerm {
-  border: 2px solid #00b4cc;
+  border: 1px solid black;
   border-right-width: 3px;
   border-right-style: solid;
   border-right-color: rgb(0, 180, 204);
@@ -83,8 +91,8 @@ li ul {
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00b4cc;
-  background: #00b4cc;
+  border: 1px solid black;
+  background: black;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
