@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#producto {
+  width: 20vw;
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+.corazon {
+  position: absolute;
+  width: 30px;
+  margin: 14px;
+  right: 0%;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.container-img {
+  position: relative;
+}
+
+.compra {
+  position: absolute;
+  bottom: 0%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: opacity ease-in-out;
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+    background-color: black;
+  }
+}

@@ -6,6 +6,8 @@ import { PersonalizacionModule } from './personalizacion/personalizacion.module'
 import { IndexComponent } from './index/index.component';
 import { RouterModule } from '@angular/router';
 import { UserComponent } from './user/user.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -20,6 +22,8 @@ import { UserComponent } from './user/user.component';
     ContactoModule,
     PersonalizacionModule,
     RouterModule,
+    BrowserModule,
+    BrowserAnimationsModule
   ],
 })
 export class AppModule { }

@@ -1,0 +1,12 @@
+<nz-card id="producto" nzHoverable [nzCover]="coverTemplate">
+    <h2>Europe Street beat</h2>
+    <p>www.instagram.com</p>
+    <p>3,99 €</p>
+</nz-card>
+<ng-template #coverTemplate>
+    <div class="container-img">
+        <img class="corazon" src="../../assets/imgs/corazon.png" alt="corazon">
+        <p class="compra" (click)="openModal()">Compra rápida</p>
+        <img class="img" alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
+    </div>
+</ng-template>
